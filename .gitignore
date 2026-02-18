@@ -1,0 +1,16 @@
+﻿.env
+.venv/
+__pycache__/
+*.pyc
+backend/app.db
+
+# law sources (keep local)
+data/law.pdf
+data/law.docx
+
+# generated artifacts
+data/law_raw.txt
+data/law_clean.md
+data/chunks.jsonl
+data/docstore.json
+data/faiss.index
